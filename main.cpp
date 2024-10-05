@@ -1,9 +1,13 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
 
-    // add any code here, sort of a 'hello world plus' code block
+    cout << "Hi! What is your name?";
+    string name;
+    getline(cin, name);
+    cout << "Hello " << name << ". Nice to meet you :)\n";
 
     return 0;
 }
